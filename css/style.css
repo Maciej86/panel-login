@@ -29,3 +29,19 @@ html {
     rgba(0, 0, 0, 0.9) 35%
   );
 }
+
+@media (max-width: 900px) {
+  .pageTemplate__shdow {
+    background: radial-gradient(
+      circle,
+      rgba(66, 66, 66, 0.8) 0%,
+      rgba(0, 0, 0, 0.9) 55%
+    );
+  }
+}
+
+@media (max-width: 380px) {
+  .pageTemplate__shdow {
+    padding: 0 10px;
+  }
+}

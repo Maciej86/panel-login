@@ -4,6 +4,12 @@
   border-radius: 0 0 8px 8px;
 }
 
+@media (max-width: 380px) {
+  .form {
+    padding: 30px 20px;
+  }
+}
+
 .form__wrapper {
   display: flex;
   flex-direction: column;
@@ -14,6 +20,13 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+}
+
+@media (max-width: 450px) {
+  .form__boxLabel {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 .form__boxLabel_link {
@@ -33,6 +46,12 @@
   align-items: center;
   width: 280px;
   margin: 7px 0;
+}
+
+@media (max-width: 450px) {
+  .form__boxInput {
+    width: 95%;
+  }
 }
 
 .form__input {
