@@ -1,8 +1,8 @@
 .panel {
   background: rgb(20, 20, 20);
   color: rgb(245, 245, 245);
-  border-radius: 5px;
-  box-shadow: 0 0 18px 4px rgb(59, 59, 59);
+  border-radius: 8px;
+  box-shadow: 0 0 18px 4px rgb(0, 0, 0);
 }
 
 .panel__header {
