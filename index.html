@@ -26,20 +26,23 @@
   </head>
   <body class="pageTemplate">
     <main class="pageTemplate__shdow">
+      <div class="errorMessage js-error">
+        <p>Your password is incorrect</p>
+      </div>
       <section class="panel">
         <header>
           <h1 class="panel__header">SIGN IN</h1>
         </header>
         <section class="form">
-          <form>
+          <form class="js-form">
             <div class="form__wrapper">
-              <label for="e-mail">Email address</label>
+              <label for="e_mail">Email address</label>
               <input
                 type="email"
                 name="email"
-                id="e-mail"
+                id="e_mail"
                 maxlength="30"
-                class="form__input"
+                class="form__input js-email"
                 placeholder="Enter your e-mail"
               />
             </div>
@@ -50,11 +53,11 @@
                 name="password"
                 id="password"
                 maxlength="50"
-                class="form__input"
+                class="form__input js-password"
                 placeholder="Enter you password"
               />
             </div>
-            <button class="form__button">login</button>
+            <button type="submit" class="form__button">sign in</button>
           </form>
         </section>
       </section>
