@@ -1,0 +1,12 @@
+.panel {
+  width: 400px;
+  background: rgb(29, 29, 29);
+  color: rgb(245, 245, 245);
+}
+
+.panel__header {
+  margin: 0;
+  padding: 15px 30px;
+  text-align: center;
+  font-weight: 500;
+}
