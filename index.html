@@ -20,6 +20,7 @@
     />
 
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/error.css" />
     <link rel="stylesheet" href="css/panel.css" />
     <link rel="stylesheet" href="css/form.css" />
 
@@ -50,7 +51,10 @@
               </div>
             </div>
             <div class="form__wrapper">
-              <label for="password">Password</label>
+              <div class="form__boxLabel">
+                <label for="password">Password</label>
+                <a href="" class="form__boxLabel_link">Forgot your password?</a>
+              </div>
               <div class="form__boxInput">
                 <input
                   type="password"
@@ -62,13 +66,14 @@
                 />
                 <button
                   type="button"
-                  class="form__toggleShowPassword js-togglePassword"
+                  class="form__boxInput__showPassword js-togglePassword"
                 >
                   <img
                     src="images/togglepassword.svg"
                     alt="Show password"
-                    width="30"
-                    height="30"
+                    width="23"
+                    height="23"
+                    class="form__boxInput_iconShowPassword"
                   />
                 </button>
               </div>

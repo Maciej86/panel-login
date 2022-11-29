@@ -10,48 +10,82 @@
   margin-bottom: 15px;
 }
 
+.form__boxLabel {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.form__boxLabel_link {
+  color: rgb(200, 200, 200);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.form__boxLabel_link:focus,
+.form__boxLabel_link:hover {
+  outline: none;
+  text-decoration: underline;
+}
+
 .form__boxInput {
   display: flex;
   align-items: center;
-  width: 250px;
+  width: 280px;
+  margin: 7px 0;
 }
 
 .form__input {
   width: 100%;
-  margin: 7px 0;
   padding: 7px;
   font-family: "IBM Plex Sans", sans-serif;
-  background: rgb(210, 210, 210);
+  background: rgb(235, 235, 235);
+  border: none;
+  border-bottom: 5px solid rgb(29, 29, 29);
+}
+
+.form__input:focus {
+  outline: none;
+  background: rgb(255, 255, 255);
+  border-bottom-color: rgb(241, 196, 15);
+}
+
+.form__boxInput__showPassword {
+  width: 46px;
+  height: 37px;
+  padding-top: 5px;
+  background: rgb(109, 109, 109);
+  border: none;
+  border-bottom: 5px solid rgb(29, 29, 29);
+  cursor: pointer;
+}
+
+.form__boxInput__showPassword:focus {
+  outline: none;
+  border-bottom-color: rgb(241, 196, 15);
+}
+
+.form__boxInput_iconShowPassword {
+  filter: invert(95%) sepia(0%) saturate(2%) hue-rotate(135deg) brightness(86%)
+    contrast(88%);
 }
 
 .form__sendForm {
-  padding: 7px 15px;
-  cursor: pointer;
-  font-family: "IBM Plex Sans", sans-serif;
-}
-
-.errorMessage {
-  position: absolute;
-  padding: 0 60px;
-  top: 50px;
-  background: rgb(231, 76, 60);
-  border-radius: 5px;
-  color: rgb(255, 255, 255);
-  font-weight: 500;
-  opacity: 0;
-  box-shadow: 0 0 10px 2px rgb(192, 57, 43);
-}
-
-.toggleErrorMesage {
-  top: 70px;
-  opacity: 1;
-  transition: opacity 0.5s, top 0.5s;
-}
-
-.form__toggleShowPassword {
-  background: none;
-  width: 30px;
-  height: 30px;
+  padding: 7px 25px;
+  background: rgb(241, 196, 15);
   border: none;
   cursor: pointer;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  transition: background 0.5s, outline 0.5s;
+}
+
+.form__sendForm:focus {
+  outline: 3px solid rgb(243, 156, 18);
+  outline-offset: 5px;
+  background: rgb(243, 156, 18);
+}
+
+.form__sendForm:hover {
+  background: rgb(243, 156, 18);
 }
