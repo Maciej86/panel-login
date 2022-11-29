@@ -14,6 +14,7 @@ html {
   margin: 0;
   background: url("../images/background.webp") center no-repeat;
   font-family: "IBM Plex Sans", sans-serif;
+  color: rgb(240, 240, 240);
 }
 
 .pageTemplate__shdow {

@@ -26,8 +26,35 @@
     <main class="pageTemplate__shdow">
       <section class="panel">
         <header>
-          <h1 class="panel__header">LOGIN PANEL</h1>
+          <h1 class="panel__header">SIGN IN</h1>
         </header>
+        <section class="form">
+          <form>
+            <div class="form__wrapper">
+              <label for="e-mail">Email address</label>
+              <input
+                type="email"
+                name="email"
+                id="e-mail"
+                maxlength="30"
+                class="form__input"
+                placeholder="Enter your e-mail"
+              />
+            </div>
+            <div class="form__wrapper">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                maxlength="50"
+                class="form__input"
+                placeholder="Enter you password"
+              />
+            </div>
+            <button class="form__button">login</button>
+          </form>
+        </section>
       </section>
     </main>
   </body>
