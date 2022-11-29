@@ -1,0 +1,14 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+.pageTemplate {
+  font-family: "Rajdhani", sans-serif;
+}
