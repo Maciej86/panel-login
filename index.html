@@ -38,27 +38,39 @@
           <form class="js-form">
             <div class="form__wrapper">
               <label for="e_mail">Email address</label>
-              <input
-                type="email"
-                name="email"
-                id="e_mail"
-                maxlength="30"
-                class="form__input js-email"
-                placeholder="Enter your e-mail"
-              />
+              <div class="form__boxInput">
+                <input
+                  type="email"
+                  name="email"
+                  id="e_mail"
+                  maxlength="30"
+                  class="form__input js-email"
+                  placeholder="Enter your e-mail"
+                />
+              </div>
             </div>
             <div class="form__wrapper">
               <label for="password">Password</label>
-              <input
-                type="password"
-                name="password"
-                id="password"
-                maxlength="50"
-                class="form__input js-password"
-                placeholder="Enter you password"
-              />
+              <div class="form__boxInput">
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  maxlength="50"
+                  class="form__input js-password"
+                  placeholder="Enter you password"
+                />
+                <button type="button" class="form__toggleShowPassword">
+                  <img
+                    src="images/togglepassword.svg"
+                    alt="Show password"
+                    width="30"
+                    height="30"
+                  />
+                </button>
+              </div>
             </div>
-            <button type="submit" class="form__button">sign in</button>
+            <button type="submit" class="form__sendForm">sign in</button>
           </form>
         </section>
       </section>
