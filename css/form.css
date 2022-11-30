@@ -29,14 +29,14 @@
   }
 }
 
-.form__boxLabel_link {
+.form__boxLabel__link {
   color: rgb(200, 200, 200);
   text-decoration: none;
   font-size: 14px;
 }
 
-.form__boxLabel_link:focus,
-.form__boxLabel_link:hover {
+.form__boxLabel__link:focus,
+.form__boxLabel__link:hover {
   outline: none;
   text-decoration: underline;
 }
@@ -54,7 +54,7 @@
   }
 }
 
-.form__input {
+.form____boxInput__input {
   width: 100%;
   padding: 7px;
   font-family: "IBM Plex Sans", sans-serif;
@@ -63,7 +63,7 @@
   border-bottom: 5px solid rgb(29, 29, 29);
 }
 
-.form__input:focus {
+.form____boxInput__input:focus {
   outline: none;
   background: rgb(255, 255, 255);
   border-bottom-color: rgb(241, 196, 15);
