@@ -11,7 +11,12 @@
   const togglePassword = () => {
     showPassword = !showPassword;
     const passwordElement = document.querySelector(".js-password");
+    const showPasswordElement = document.querySelector(".js-showPassword");
+    const hiddenPasswordElement = document.querySelector(".js-hiddenPassword");
+
     passwordElement.setAttribute("type", showPassword ? "text" : "password");
+    showPasswordElement.classList.toggle("form__boxInput__showIcon");
+    hiddenPasswordElement.classList.toggle("form__boxInput__showIcon");
   };
 
   const init = () => {

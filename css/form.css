@@ -84,9 +84,14 @@
   border-bottom-color: var(--yellow);
 }
 
-.form__boxInput_iconShowPassword {
+.form__boxInput__iconShowPassword {
+  display: none;
   filter: invert(95%) sepia(0%) saturate(2%) hue-rotate(135deg) brightness(86%)
     contrast(88%);
+}
+
+.form__boxInput__showIcon {
+  display: inline;
 }
 
 .form__sendForm {
