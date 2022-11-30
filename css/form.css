@@ -1,6 +1,6 @@
 .form {
   padding: 30px 60px;
-  background: rgb(29, 29, 29);
+  background: var(--dark100);
   border-radius: 0 0 8px 8px;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .form__boxLabel__link {
-  color: rgb(200, 200, 200);
+  color: var(--gray200);
   text-decoration: none;
   font-size: 14px;
 }
@@ -58,30 +58,30 @@
   width: 100%;
   padding: 7px;
   font-family: "IBM Plex Sans", sans-serif;
-  background: rgb(235, 235, 235);
+  background: var(--gray200);
   border: none;
-  border-bottom: 5px solid rgb(29, 29, 29);
+  border-bottom: 5px solid var(--dark100);
 }
 
 .form____boxInput__input:focus {
   outline: none;
-  background: rgb(255, 255, 255);
-  border-bottom-color: rgb(241, 196, 15);
+  background: var(--white);
+  border-bottom-color: var(--yellow);
 }
 
 .form__boxInput__showPassword {
   width: 46px;
   height: 37px;
   padding-top: 5px;
-  background: rgb(109, 109, 109);
+  background: var(--gray400);
   border: none;
-  border-bottom: 5px solid rgb(29, 29, 29);
+  border-bottom: 5px solid var(--dark100);
   cursor: pointer;
 }
 
 .form__boxInput__showPassword:focus {
   outline: none;
-  border-bottom-color: rgb(241, 196, 15);
+  border-bottom-color: var(--yellow);
 }
 
 .form__boxInput_iconShowPassword {
@@ -93,7 +93,7 @@
   display: block;
   margin: 0 auto;
   padding: 7px 25px;
-  background: rgb(241, 196, 15);
+  background: var(--yellow);
   border: none;
   cursor: pointer;
   font-family: "IBM Plex Sans", sans-serif;
@@ -102,11 +102,11 @@
 }
 
 .form__sendForm:focus {
-  outline: 3px solid rgb(243, 156, 18);
+  outline: 3px solid var(--orange);
   outline-offset: 5px;
-  background: rgb(243, 156, 18);
+  background: var(--orange);
 }
 
 .form__sendForm:hover {
-  background: rgb(243, 156, 18);
+  background: var(--orange);
 }

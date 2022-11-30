@@ -1,0 +1,16 @@
+:root {
+  --shadowBackground100: rgba(66, 66, 66, 0.7);
+  --shadowBackground200: rgba(0, 0, 0, 0.8);
+  --white: rgb(255, 255, 255);
+  --yellow: rgb(241, 196, 15);
+  --orange: rgb(243, 156, 18);
+  --red100: rgb(231, 76, 60);
+  --red200: rgb(192, 57, 43);
+  --gray100: rgb(245, 245, 245);
+  --gray200: rgb(235, 235, 235);
+  --gray300: rgb(210, 210, 210);
+  --gray400: rgb(109, 109, 109);
+  --dark100: rgb(29, 29, 29);
+  --dark200: rgb(20, 20, 20);
+  --dark300: rgb(0, 0, 0);
+}

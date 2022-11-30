@@ -15,7 +15,7 @@ html {
   background: url("../images/background.webp") center no-repeat;
   background-size: cover;
   font-family: "IBM Plex Sans", sans-serif;
-  color: rgb(210, 210, 210);
+  color: var(--gray300);
 }
 
 @media (max-width: 800px) {
@@ -32,8 +32,8 @@ html {
   height: 100%;
   background: radial-gradient(
     circle,
-    rgba(66, 66, 66, 0.8) 0%,
-    rgba(0, 0, 0, 0.9) 35%
+    var(--shadowBackground100) 0%,
+    var(--shadowBackground200) 35%
   );
 }
 
@@ -41,8 +41,8 @@ html {
   .pageTemplate__shdow {
     background: radial-gradient(
       circle,
-      rgba(66, 66, 66, 0.7) 0%,
-      rgba(0, 0, 0, 0.8) 55%
+      var(--shadowBackground100) 0%,
+      var(--shadowBackground200) 35%
     );
   }
 }
