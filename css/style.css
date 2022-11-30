@@ -18,6 +18,12 @@ html {
   color: rgb(210, 210, 210);
 }
 
+@media (max-width: 800px) {
+  .pageTemplate {
+    background-image: url("../images//background_mobile.webp");
+  }
+}
+
 .pageTemplate__shdow {
   display: flex;
   justify-content: center;
