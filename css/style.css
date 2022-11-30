@@ -13,6 +13,7 @@ html {
   height: 100%;
   margin: 0;
   background: url("../images/background.webp") center no-repeat;
+  background-size: cover;
   font-family: "IBM Plex Sans", sans-serif;
   color: rgb(210, 210, 210);
 }
@@ -34,8 +35,8 @@ html {
   .pageTemplate__shdow {
     background: radial-gradient(
       circle,
-      rgba(66, 66, 66, 0.8) 0%,
-      rgba(0, 0, 0, 0.9) 55%
+      rgba(66, 66, 66, 0.7) 0%,
+      rgba(0, 0, 0, 0.8) 55%
     );
   }
 }

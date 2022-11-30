@@ -90,6 +90,8 @@
 }
 
 .form__sendForm {
+  display: block;
+  margin: 0 auto;
   padding: 7px 25px;
   background: rgb(241, 196, 15);
   border: none;
